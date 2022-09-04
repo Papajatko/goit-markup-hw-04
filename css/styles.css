@@ -111,6 +111,7 @@
 
 .icon-gap {
   margin-right: 10px;
+  fill: #757575;
 }
 
 .mail-phone {
@@ -130,6 +131,12 @@
 .mail-phone:hover,
 .mail-phone:focus {
   color: var(--blue-logo);
+}
+
+.mail-phone:hover,
+.mail-phone:focus {
+  fill: var(--blue-logo);
+  border-color: var(--blue-logo);
 }
 
 .background {
