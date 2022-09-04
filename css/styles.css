@@ -132,6 +132,7 @@
   display: block;
   background: #2f303a;
   height: 600px;
+  background-image: url('.images/background.jpg');
 }
 
 .effective {
