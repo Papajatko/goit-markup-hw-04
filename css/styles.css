@@ -109,6 +109,10 @@
   display: list-item;
 }
 
+.icon-gap {
+  margin-right: 10px;
+}
+
 .mail-phone {
   font-family: inherit;
   font-style: normal;
@@ -129,10 +133,15 @@
 }
 
 .background {
-  display: block;
+  display: flex;
   background: #2f303a;
   height: 600px;
-  background-image: url('.images/background.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1600px;
+  gap: 30px;
 }
 
 .effective {
@@ -184,6 +193,7 @@
   gap: 30px;
   flex-direction: row;
   margin-top: 94px;
+  justify-content: center;
 }
 
 .smaller-lorem {
@@ -192,10 +202,21 @@
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--grey);
-  display: flex;
+  display: block;
   flex-wrap: wrap;
   flex-basis: calc((100% - 3 * 30px) / 4);
-  margin-bottom: 94px;
+}
+
+.icon {
+  background-color: #f5f4fa;
+  padding: 25px 102.34px;
+  height: 120px;
+  width: 270px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .lorem {
